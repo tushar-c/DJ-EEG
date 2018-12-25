@@ -1,1 +1,1 @@
-"# DJ-EEG" 
+This repository contains code for the project "DJ-EEG". The aim of this project is to make a BCI-based affective computing platform that is audio-based. More Specifically, the data acquisition is done non-invasively through EEG headsets. We specifically aim to make adaptive machines that can adapt the feedback media through optimizing based on elicited affective states.  
