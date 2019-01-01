@@ -6,7 +6,7 @@ def organize_data(features, labels, n_classes=2):
     class_covariances = []
 
     N = len(features)
-    nrows, ncols = features[0].shape
+    nrows, _ = features[0].shape
 
     for n in range(N):
         X = features[n]

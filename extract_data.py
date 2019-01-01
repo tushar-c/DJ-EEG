@@ -89,7 +89,7 @@ def extract_data(runs_data):
 
     for r in runs_data:
         # labelling based on manual inspection
-        run_eeg = r[0]
+        run_eeg = r[0].T
         run_time_points = r[1]
         run_labels = r[2]
         run_sample_rate = r[3]
